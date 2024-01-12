@@ -1,8 +1,8 @@
-esta pagina esta creada con el proposito de brindarle al usuario la mejor experiencia tanto visual como en comodidad mediante la estructuracion de la pagina y su orden.
-en esta pagina el usuario va a poder encontrar la mayor variedad de iphones que pueda necesitar junto con sus debidos accesorios que tienen su seccion aparte.
-el usuario puede buscar en nuestro catalogo publicado o puede consultar mediante el formulario dejando sus datos de contacto y marcando en la tabla de las marcas por la que desea consultar y abajo dejando los detalles del producto que esta buscando y despues nosotros nos encargamos de conseguirlo al mejor precio y manteniendo la comodidad del usuario.
-este mismo tambien tiene la opcion de iniciar sesion cosa de ya quedar registrado y dejar guardados sus datos para proximas compras
-esta pagina esta armada en codigo nativo es decir html,css y javascrips puro.
-con el css nos encargamos de darle estilo a toda la pagina y con el javascrips nos encargamos de terminar de pulir algunas cosas como el slider de los productos etc,tambien con java creamos el sistema del carritousando la funcion localstorage y sesionstorage, tambien usamos la funcion fetch para traer una lista de proctos previamente creada por nosotros en un archivo json.
-eso seria todo lo principal que puedo decir sobre nuestra pagina.
 
+"¡Bienvenido a nuestra página, diseñada con el objetivo de proporcionar a los usuarios la mejor experiencia visual y de navegación posible! Nos enorgullece presentar una amplia variedad de iPhones y sus accesorios correspondientes, todo cuidadosamente organizado para su fácil acceso.
+
+Nuestro extenso catálogo está a su disposición, pero si prefiere una atención más personalizada, le invitamos a utilizar nuestro formulario de contacto. Simplemente deje sus datos y seleccione la marca de su interés. A continuación, describa el producto que está buscando, y nosotros nos encargaremos de encontrarlo al mejor precio, asegurando su comodidad en todo momento.
+
+Para mayor conveniencia, ofrecemos la opción de registro e inicio de sesión. Esto le permite almacenar sus datos para futuras compras, agilizando el proceso. Nuestra página está construida utilizando código nativo, empleando HTML, CSS y JavaScript puro. El CSS se utiliza para dar estilo a toda la página, mientras que el JavaScript se encarga de perfeccionar detalles como el deslizador de productos. Además, hemos implementado un sistema de carrito utilizando las funciones de almacenamiento local (LocalStorage) y de sesión (SessionStorage). Asimismo, utilizamos la función fetch para recuperar una lista de productos previamente creada en un archivo JSON.
+
+Estamos comprometidos a brindarle la mejor experiencia de compra en línea, combinando estilo, funcionalidad y servicio personalizado. ¡Explora nuestro sitio y descubre la calidad y comodidad que ofrecemos!"
