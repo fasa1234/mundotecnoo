@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 150vh;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px; 
+    color: #feffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: #f6ff00;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: #4E4B5076;
+    padding: 20px;
+    min-width: 400px;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    color: #feffff;
+}
+
+.btn-3 {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 14px;
+    color: #ffffff;
+    border: 1px solid #f6ff00;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.btn-3:hover {
+    background-color: #f6ff00;
+    color: #000000;
+}
+
+.footer {
+    display: flex;
+    padding: 30px 0;
+}
+
+.link {
+    width: 20%;
+}
+
+.link h3 {
+    color: #feffff;
+    margin-bottom: 20px;
+}
+
+.link a {
+    color: #747B8F;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link p {
+    color: #747B8F;
+    font-size: 16px;
+}
+
+.link {
+    width: 100%;
+}
+
+
+
+@media (max-width: 992px) {
+    .menu {
+        padding: 20px;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #181818;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .logo {
+        display: none;
+    }
+    .submenu:hover #carrito {
+        min-width: 100%;
+    }
+}
+
+/* Estilos para la lista de celulares */
+.celulares-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: aliceblue;
+  }
+  
+  /* Estilos para cada elemento de la lista */
+  .celular-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Estilos para la imagen */
+  .celular-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+  }
+  .celular-item:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Estilos para la información del celular */
+  .celular-item strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para el botón "Añadir al Carrito" */
+  .add-to-cart-btn {
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 14px;
+    color: #ffffff;
+    border: 1px solid #f6ff00;
+    border-radius: 25px;
+    margin-top: 15px;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #f6ff00;
+    color: #000000;
+  }
+
+  .borrar {
+    background-color: #f6ff00;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #feffff;
+    font-weight: 800;
+}
+

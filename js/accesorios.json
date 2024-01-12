@@ -1,0 +1,57 @@
+[
+    {
+      "nombre": "airpods pro 2da gen",
+      "marca": "APPLE",
+      "precio": 150,
+      "imagen": "../assets/airpods.png"
+    },
+    {
+      "nombre": "cargador inalambrico",
+      "marca": "xiaomi",
+      "precio": 80,
+      "imagen": "../assets/cargador.png"
+    },
+    {
+      "nombre": "funda silicona colores",
+      "marca": "APPLE",
+      "precio": 30,
+      "imagen": "../assets/funda1.png"
+    },
+    {
+      "nombre": "funda naruto eyes",
+      "marca": "supcase",
+      "precio": 50,
+      "imagen": "../assets/funda2.png"
+    },
+    {
+      "nombre": "aro de luz",
+      "marca": "noga",
+      "precio": 15,
+      "imagen": "../assets/aro.png"
+    },
+    {
+        "nombre": "auriculares inalambricos",
+        "marca": "xiaomi",
+        "precio": 60,
+        "imagen": "../assets/ph1.png"
+      },
+      {
+        "nombre": "auriculares gym",
+        "marca": "sony",
+        "precio": 200,
+        "imagen": "../assets/bg1.png"
+      },
+      {
+        "nombre": "colgante para celular",
+        "marca": "accesorioscba",
+        "precio": 10,
+        "imagen": "../assets/colgante.png"
+      }
+   
+  
+    
+    
+  ]
+
+
+  

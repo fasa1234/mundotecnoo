@@ -1,0 +1,57 @@
+[
+    {
+      "nombre": "Iphone 13 pro",
+      "marca": "APPLE",
+      "precio": 800,
+      "imagen": "../assets/iphone1.webp"
+    },
+    {
+      "nombre": "iphone 14 pro max",
+      "marca": "APPLE",
+      "precio": 1150,
+      "imagen": "../assets/iphone2.webp"
+    },
+    {
+      "nombre": "Iphone 13",
+      "marca": "APPLE",
+      "precio": 700,
+      "imagen": "../assets/iphone3.webp"
+    },
+    {
+      "nombre": "Iphone 14 pro",
+      "marca": "APPLE",
+      "precio": 950,
+      "imagen": "../assets/iphone4.webp"
+    },
+    {
+      "nombre": "Iphone 13 pro max",
+      "marca": "APPLE",
+      "precio": 850,
+      "imagen": "../assets/iphone5.webp"
+    },
+    {
+        "nombre": "Iphone 14",
+        "marca": "APPLE",
+        "precio": 900,
+        "imagen": "../assets/iphone6.webp"
+      },
+      {
+        "nombre": "Iphone XS MAX",
+        "marca": "APPLE",
+        "precio": 350,
+        "imagen": "../assets/iphone7"
+      },
+      {
+        "nombre": "Iphone x",
+        "marca": "APPLE",
+        "precio": 250,
+        "imagen": "../assets/iphone8.png"
+      }
+   
+  
+    
+    
+  ]
+  
+
+  
